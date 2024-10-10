@@ -1,6 +1,9 @@
-package CreationalDesignPatterns.FactoryMethod;
+package CreationalDesignPatterns.FactoryMethod.ConcreteProducts;
 
-class CheesePizza implements Pizza {
+import CreationalDesignPatterns.FactoryMethod.Pizza;
+
+public class CheezePizza implements Pizza {
+
     @Override
     public void prepare() {
         System.out.println("Preparing CHEESE pizza.");
@@ -23,4 +26,5 @@ class CheesePizza implements Pizza {
         System.out.println("Packing the CHEESE pizza. It's ready to deliver :)" );
 
     }
+
 }

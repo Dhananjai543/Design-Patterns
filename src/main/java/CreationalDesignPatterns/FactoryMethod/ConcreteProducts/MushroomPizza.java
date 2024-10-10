@@ -1,6 +1,8 @@
-package CreationalDesignPatterns.FactoryMethod;
+package CreationalDesignPatterns.FactoryMethod.ConcreteProducts;
 
-class MushroomPizza implements Pizza {
+import CreationalDesignPatterns.FactoryMethod.Pizza;
+
+public class MushroomPizza implements Pizza {
     @Override
     public void prepare() {
         System.out.println("Preparing MUSHROOM pizza.");

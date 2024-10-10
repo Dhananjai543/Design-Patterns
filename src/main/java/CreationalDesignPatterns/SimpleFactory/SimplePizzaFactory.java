@@ -8,7 +8,7 @@ public class SimplePizzaFactory {
         Pizza pizza = null;
 
         if (pizzaType.equals("cheese")){
-            pizza = new CheesePizza();
+            pizza = new CheezePizza();
         }
         else if (pizzaType.equals("pepperoni")){
             pizza = new PepporoniPizza();

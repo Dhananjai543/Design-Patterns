@@ -1,6 +1,6 @@
 package CreationalDesignPatterns.SimpleFactory;
 
-class CheesePizza implements Pizza{
+public class CheezePizza implements Pizza{
     @Override
     public void prepare() {
         System.out.println("Preparing CHEESE pizza.");

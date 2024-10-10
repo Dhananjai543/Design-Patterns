@@ -1,6 +1,8 @@
-package CreationalDesignPatterns.FactoryMethod;
+package CreationalDesignPatterns.FactoryMethod.ConcreteProducts;
 
-class PepporoniPizza implements Pizza {
+import CreationalDesignPatterns.FactoryMethod.Pizza;
+
+public class PepporoniPizza implements Pizza {
     @Override
     public void prepare() {
         System.out.println("Preparing PEPPERONI pizza.");
