@@ -18,7 +18,6 @@ Components of Adapter Design Pattern
    Description: The code that uses the target interface to interact with objects. It remains unaware of the specific implementation details of the adaptee and the adapter.
    Role: It’s the code that benefits from the integration of the adaptee into the system through the adapter.
 
-[
 ### When to use Adapter Design Pattern?
 1. When you want to use an existing class, and its interface does not match the one you need.
 
